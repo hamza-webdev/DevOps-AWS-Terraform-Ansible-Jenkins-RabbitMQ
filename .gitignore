@@ -1,0 +1,9 @@
+*.tfvars
+*.pem
+*.pub
+*.ppk
+.terraform
+/.terraform
+*.exe
+jeton-api-token-jenkins.txt
+
