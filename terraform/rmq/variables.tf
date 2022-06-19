@@ -1,3 +1,7 @@
+variable "region" {
+  type    = string
+  default = "eu-west-3"
+}
 variable "name" {
   description = "Name the instance on deploy"
 }

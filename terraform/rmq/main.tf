@@ -1,8 +1,3 @@
-provider "aws" {
-  region  = "eu-west-3"
-  profile = var.profile
-}
-
 resource "aws_instance" "rmq" {
   ami                    = var.ami
   instance_type          = "t2.micro"
